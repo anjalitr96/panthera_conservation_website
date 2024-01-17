@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.section-conservation-image{
+    height: 35rem;
+    width: 30rem;
+    max-width: 100%;
+
+}
+.container{
+    padding: 48px;
+    width: 100%;
+    
+    
+}
+.section-1{
+    background-image: url('./images/tiger-in-the-river.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+
+
+    
+}
+.explore{
+    background-color:greenyellow;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 44px;
+    padding: 8px;
+}
+.section-1-content h1{
+    padding-top: 168px;
+    font-weight: 600;
+    font-size: 67.34px;
+}
+.section-1-content{
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 864px;
+}
+.section-1-content p{
+    margin-right: 50%;
+    padding-bottom: 432px;
+}
+h2{
+    font-size: 2.36rem;
+}
+.section-1-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.section-1-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.section-1-link{
+    text-decoration: none;
+    color: white;
+
+}
+.section-1-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section-1-list{
+    margin-left: 2rem;
+    text-decoration: none;
+
+    
+}
+.section-conservation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section-conservation-header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    margin-bottom: 4.5rem;
+    border-bottom: 1px solid #dbdbdb;
+}
+.section-conservation-header h2{
+    width: 50%;
+}
+.section-conservation-header p{
+    width: 50%;
+}
+.section-conservation-methods{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    list-style: none;
+}
+.conservation-method{
+    position: relative;
+}
+.conservation-method h3{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: white;
+}
